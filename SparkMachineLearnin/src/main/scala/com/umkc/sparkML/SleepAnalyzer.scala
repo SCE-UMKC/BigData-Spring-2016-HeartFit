@@ -60,24 +60,22 @@ object SleepAnalyzer   {
 
 
    val df =  result.map {
-     case (k, v) => acc(k._1, k._2, k._3, k._4, k._5, k._6,v) }.toDF()
+     case (k, v) => acc(k._1, k._2, k._3, k._4, k._5, k._6,v) }
+     .toDF()
 
 
-    val accl = Window.partitionBy('d,'t,'h,'cnt).orderBy('d.desc)
+    val accl = Window.partitionBy('out_date,'out_hour,'out_min,'out_count).orderBy('out_date.desc)
 
     val ranked = df.withColumn("rank", row_number().over(accl))
     ranked.registerTempTable("resultitems")
 
-    val finalresults = sqlContext.sql("SELECT x,y,z,d,t,h,cnt FROM resultitems where rank = 1")
+    val finalresults = sqlContext.sql("SELECT out_x,out_y,out_z,out_date,out_hour,out_min,out_count FROM resultitems where rank = 1")
 
-    //finalresults.collect().foreach(println)
+    finalresults.insertIntoJDBC(databaseConnectionUrl,"output_accelerometer",true)
 
-    finalresults.insertIntoJDBC(databaseConnectionUrl,"output_accelerometer",false)
   }
 
-  case class acc(x: Double,y: Double, z: Double, d: String, t: Int, h: Int, cnt: Int)
-
-  case class StructType(value: Any)
+  case class acc(out_x: Double,out_y: Double, out_z: Double, out_date: String, out_hour: Int, out_min: Int, out_count: Int)
 
 }
 

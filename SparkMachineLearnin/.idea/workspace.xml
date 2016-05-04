@@ -59,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/ml-100k/sample_fpgrowth.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -68,8 +68,8 @@
       <file leaf-file-name="SleepAnalyzer.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/umkc/sparkML/SleepAnalyzer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30960265">
-              <caret line="62" column="70" selection-start-line="62" selection-start-column="70" selection-end-line="62" selection-end-column="70" />
+            <state vertical-scroll-proportion="2.1672184">
+              <caret line="77" column="123" selection-start-line="77" selection-start-column="123" selection-end-line="77" selection-end-column="123" />
               <folding>
                 <element signature="e#26#60#0" expanded="true" />
               </folding>
@@ -81,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/umkc/sparkML/ItemSimilarity.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="0" selection-start-line="49" selection-start-column="4" selection-end-line="53" selection-end-column="0" />
+              <caret line="214" column="120" selection-start-line="214" selection-start-column="3" selection-end-line="214" selection-end-column="120" />
               <folding>
                 <element signature="e#1#35#0" expanded="true" />
               </folding>
@@ -1141,28 +1141,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ml-100k/sample_fpgrowth.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/umkc/sparkML/ItemSimilarity.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="0" selection-start-line="49" selection-start-column="4" selection-end-line="53" selection-end-column="0" />
+          <caret line="214" column="120" selection-start-line="214" selection-start-column="3" selection-end-line="214" selection-end-column="120" />
           <folding>
             <element signature="e#1#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ml-100k/sample_fpgrowth.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/umkc/sparkML/SleepAnalyzer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30960265">
-          <caret line="62" column="70" selection-start-line="62" selection-start-column="70" selection-end-line="62" selection-end-column="70" />
+        <state vertical-scroll-proportion="2.1672184">
+          <caret line="77" column="123" selection-start-line="77" selection-start-column="123" selection-end-line="77" selection-end-column="123" />
           <folding>
             <element signature="e#26#60#0" expanded="true" />
           </folding>
