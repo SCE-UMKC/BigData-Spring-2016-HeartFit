@@ -1,4 +1,4 @@
-# Big data Analytics Project 2016
+# Big data Analytics Project 2016 Team# 7
 App name - HeartFit
 This is the repository for Big Data Analytics and apps project. 
 
