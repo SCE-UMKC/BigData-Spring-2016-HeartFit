@@ -1,0 +1,7 @@
+<ion-view view-title="Recommended Items">
+  <ion-content>
+    
+      <ion-radio ng-repeat="scan in recordsDis track by $index" class="display" value="{{scan.ndb_no}}" >{{ scan.shrt_desc }}<br><h5>pro = {{ scan.pro_factor }}, chol = {{ scan.cho_factor }}, fat = {{ scan.fat_factor }}</h5> </ion-radio>
+            
+  </ion-content>
+</ion-view>

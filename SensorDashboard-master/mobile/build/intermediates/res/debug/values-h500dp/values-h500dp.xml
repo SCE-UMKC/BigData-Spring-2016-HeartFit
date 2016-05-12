@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Sri%20Divya/Documents/GitHub/Bigdata_Project/SensorDashboard-master/mobile/src/main/res/values-h500dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="graph_view_height">300dp</dimen>
+</resources>
